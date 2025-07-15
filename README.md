@@ -55,10 +55,6 @@ React Native 0.79 + Expo 53 + Convex
 
 ## 安装运行
 
------
-
-## 安装与运行
-
 1. 克隆仓库
 
 ```bash
