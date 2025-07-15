@@ -1,50 +1,118 @@
-# Welcome to your Expo app 👋
+# LONELY Todo - React Native Todo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<div align="center">
+  <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151003519.png" width="200" alt="应用图标">
+</div>
 
-## Get started
+<p align="center">
+  <img alt="license" src="https://img.shields.io/github/license/Lonely0710/todo-app-rn-beginner" />
+  <img alt="stars" src="https://img.shields.io/github/stars/Lonely0710/todo-app-rn-beginner" />
+  <img alt="forks" src="https://img.shields.io/github/forks/Lonely0710/todo-app-rn-beginner" />
+  <img alt="issues" src="https://img.shields.io/github/issues/Lonely0710/todo-app-rn-beginner" />
+</p>
 
-1. Install dependencies
+> **前言：** 
+> 本项目是基于 YouTube 上 Codesistency 的 **[React Native for Absolute Beginners](https://www.youtube.com/watch?v=jdfNnNccDt0)** 教程进行的实践开发。通过完整跟随教程，我系统学习了 React Native 的开发流程，从环境搭建到应用发布的全过程。
+> 基于本项目，我从零开始构建了一个功能完整的待办事项应用，涵盖了从基础 UI 搭建到复杂状态管理的完整开发流程。
 
-   ```bash
-   npm install
-   ```
+## 技术栈
 
-2. Start the app
+<div align="center">
+  <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151014560.svg" width="60" alt="React Native">
+  <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151014561.svg" width="60" alt="Expo">
+  <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151014548.svg" width="225" alt="Convex">
+</div>
 
-   ```bash
-   npx expo start
-   ```
+<p align="center">
+React Native 0.79 + Expo 53 + Convex
+</p>
 
-In the output, you'll find options to open the app in a
+## 功能特性
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+✅ 完整的CRUD操作  
+✅ 日夜主题切换  
+✅ 数据持久化存储  
+✅ 动画交互效果  
+✅ 响应式设计  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 功能展示
 
-## Get a fresh project
+### 1. Todos
 
-When you're ready, run:
+| 功能 | 日间模式 | 夜间模式 |
+|------|----------|----------|
+| 待办事项列表 | ![Light_Todos_interface_1](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001240.png) | ![Dark_Todos_interface_1](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001090.png) |
+| 空状态 | ![Light_Todos_empty](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001125.png) | ![Dark_Todos_empty](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001951.png) |
+| 编辑 | ![Light_Todos_edit](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001172.png) | ![Dark_Todos_edit](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001004.png) |
+| 删除 | ![Light_Todos_delete](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001380.png) |  |
+
+### 2. Settings
+
+| 功能 | 日间模式 | 夜间模式 |
+|------|----------|----------|
+| 进度统计 | ![Light_Settings_progressStats](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001343.png) | ![Dark_Settings_progressStats](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001898.png) |
+| 偏好设置 | ![Light_Settings_preferences](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001307.png) | ![Dark_Settings_preferences](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001812.png) |
+
+## 安装运行
+
+-----
+
+## 安装与运行
+
+1. 克隆仓库
 
 ```bash
-npm run reset-project
+git clone https://github.com/Lonely0710/todo-app-rn-beginner.git
+cd todo-app-rn-beginner
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. 安装依赖
+```bash
+npm install
+```
 
-## Learn more
+3. 启动开发服务器
 
-To learn more about developing your project with Expo, look at the following resources:
+您需要**两个终端窗口**来分别启动前端和后端服务：
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+  * **终端 1 - 启动 Expo 前端:**
 
-## Join the community
+    ```bash
+    npx expo start
+    ```
 
-Join our community of developers creating universal apps.
+  * **终端 2 - 启动 Convex 后端:**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    ```bash
+    npx convex dev
+    ```
+
+### 4\. 选择运行平台
+
+在启动 Expo 前端（终端 1）后，根据提示选择您希望运行应用的平台：
+
+  * 在 **Android 模拟器/设备**上运行：按 `a`
+  * 在 **iOS 模拟器/设备**上运行：按 `i`
+  * 在 **Web 浏览器**中运行：按 `w`
+
+## 项目结构
+
+```
+.
+├── app/                  # 应用主入口
+│   ├── (tabs)/           # 底部导航栏页面
+│   │   ├── index.tsx     # 主页
+│   │   └── settings.tsx  # 设置页
+├── assets/               # 静态资源
+│   └── styles/           # 样式文件
+│       ├── home.styles.ts
+│       └── settings.styles.ts
+├── components/           # 公共组件
+├── convex/               # Convex 后端服务
+├── hooks/                # 自定义 Hooks
+└── ios/                  # iOS 原生项目文件
+```
+
+## 参考资源
+
+<div align="left"> <p> <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151029944.svg" width="20" alt="YouTube"> <a href="https://www.youtube.com/watch?v=jdfNnNccDt0">React Native for Absolute Beginners</a> </p> <p> <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151014561.svg" width="20" alt="Expo"> <a href="https://docs.expo.dev">Expo官方文档</a> </p> <p> <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151045211.svg" width="20" alt="Convex"> <a href="https://docs.convex.dev">Convex官方文档</a> </p> </div>
