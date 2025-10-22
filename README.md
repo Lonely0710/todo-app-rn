@@ -5,12 +5,13 @@
 </div>
 
 <p align="center">
-  <img alt="license" src="https://img.shields.io/github/license/Lonely0710/todo-app-rn-beginner" />
-  <img alt="stars" src="https://img.shields.io/github/stars/Lonely0710/todo-app-rn-beginner" />
-  <img alt="forks" src="https://img.shields.io/github/forks/Lonely0710/todo-app-rn-beginner" />
-  <img alt="issues" src="https://img.shields.io/github/issues/Lonely0710/todo-app-rn-beginner" />
+  <img alt="license" src="https://img.shields.io/github/license/Lonely0710/todo-app-rn?style=flat-round" />
+  <img alt="stars" src="https://img.shields.io/github/stars/Lonely0710/todo-app-rn" />
+  <img alt="gitHubtoplanguage" src="https://img.shields.io/github/languages/top/Lonely0710/todo-app-rn" />
+  <img alt="issues" src="https://img.shields.io/github/issues/Lonely0710/todo-app-rn" />
 </p>
 
+>[!note]
 > **前言：** 
 > 本项目是基于 YouTube 上 Codesistency 的 **[React Native for Absolute Beginners](https://www.youtube.com/watch?v=jdfNnNccDt0)** 教程进行的实践开发。通过完整跟随教程，我系统学习了 React Native 的开发流程，从环境搭建到应用发布的全过程。
 > 基于本项目，我从零开始构建了一个功能完整的待办事项应用，涵盖了从基础 UI 搭建到复杂状态管理的完整开发流程。
@@ -39,19 +40,19 @@ React Native 0.79 + Expo 53 + Convex
 
 ### 1. Todos
 
-| 功能 | 日间模式 | 夜间模式 |
-|------|----------|----------|
-| 待办事项列表 | ![Light_Todos_interface_1](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001240.png) | ![Dark_Todos_interface_1](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001090.png) |
-| 空状态 | ![Light_Todos_empty](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001125.png) | ![Dark_Todos_empty](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001951.png) |
-| 编辑 | ![Light_Todos_edit](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001172.png) | ![Dark_Todos_edit](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001004.png) |
-| 删除 | ![Light_Todos_delete](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001380.png) |  |
+| 功能         | 日间模式                                                                                           | 夜间模式                                                                                           |
+| ------------ | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| 待办事项列表 | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001240.png" width="300"> | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001090.png" width="300"> |
+| 空状态       | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001125.png" width="300"> | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001951.png" width="300"> |
+| 编辑         | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001172.png" width="300"> | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001004.png" width="300"> |
+| 删除         | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001380.png" width="300"> |                                                                                                    |
 
 ### 2. Settings
 
-| 功能 | 日间模式 | 夜间模式 |
-|------|----------|----------|
-| 进度统计 | ![Light_Settings_progressStats](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001343.png) | ![Dark_Settings_progressStats](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001898.png) |
-| 偏好设置 | ![Light_Settings_preferences](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001307.png) | ![Dark_Settings_preferences](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001812.png) |
+| 功能     | 日间模式                                                                                           | 夜间模式                                                                                           |
+| -------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| 进度统计 | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001343.png" width="300"> | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001898.png" width="300"> |
+| 偏好设置 | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001307.png" width="300"> | <img src="https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202507151001812.png" width="300"> |
 
 ## 安装运行
 
